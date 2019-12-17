@@ -7,11 +7,11 @@ metadata:
   namespace: monitoring
 spec:
   rules:
-  - host: monitor-basicservice.inc-inc.com
+  - host: monitor-aliyun.inc-inc.com
     http:
       paths:
       - backend:
-          serviceName: grafana
+          serviceName: grafana-aliyun
           servicePort: 3000
         path: /
 
