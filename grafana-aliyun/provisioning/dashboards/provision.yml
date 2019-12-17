@@ -1,0 +1,10 @@
+apiVersion: 1
+
+providers:
+ - name: 'ECS'
+   orgId: 1
+   folder: 'ECS'
+   folderUid: ''
+   type: file
+   options:
+     path: /var/lib/grafana/aliyun-magic-grafana-prometheus/grafana-aliyun/provisioning/dashboards/ECS
