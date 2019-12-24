@@ -18,7 +18,7 @@ spec:
       - name: dashboards-clear
         #存到你公司自己的镜像仓库，不要用docker官方仓库
         image: alpine/git:1.0.7
-        command: ['sh', '-c', 'rm -rf k8s-app-config']
+        command: ['sh', '-c', 'rm -rf aliyun-magic-grafana-prometheus']
         volumeMounts:
         - name: pv-metrics-grafana-aliyun
           mountPath: /git
